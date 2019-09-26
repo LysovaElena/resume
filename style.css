@@ -6,7 +6,7 @@ body {
    * В данном случае — к содержимому страницы.
    */ 
 
-  background-color: red;
+  background-color: blue;
   /* Задаем странице серый фон */
   font-family:Helvetica, sans-serif;
   font-size: 24px;
@@ -15,7 +15,7 @@ body {
 
 h1, h2 {
   color: white;
-  font-family: Arial, regular;
+  font-family: Helvetica, regular;
   /* Перекрашиваем заголовки в белый */
 }
 
