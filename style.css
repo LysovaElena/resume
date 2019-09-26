@@ -10,13 +10,14 @@ body {
 }
 
 h1 {font-size:36px !important; line-height:30px !important;
-color: black;margin-bottom: 28px;}
+color: black;margin-bottom: 28px;margin-top: 50px;}
 
 h2 {
   color: black;
   font-family: Helvetica, regular;
   font-size: 20px;
   margin-bottom: 20px;
+  margin-top: 0px;
   
   /* Перекрашиваем заголовки в белый */
 }
@@ -33,7 +34,7 @@ p {
   font-size: 18px;
   font-style: regular;
   font-family: Helvetica, regular;
-  margin-left:8px;
+  margin-left:0px;
   /* Перекрашиваем абзацы в белый */
 }
 
@@ -70,19 +71,14 @@ img {
   * к левому краю.
   */
   float: left;
+  display: flex;
   /*
   * Фиксируем высоту картинки.
   */
-  height: 240px;
+  height: 300px;
   width: auto;
-  /*
-  * Задаем внешние отступы:
-  * 40% от кегля сверху,
-  * чтобы попасть в строчные;
-  * 50% от кегля справа,
-  * чтобы отодвинуть текст.
-  */
-  margin: .1em .8em 0 0;
+  padding-top: 24px;
+  margin: -18px .7em 0 0;
 }
 
 .small {
@@ -93,4 +89,35 @@ img {
   width: auto;
   font-size: 14px;
   /* Перекрашиваем абзацы в белый */
+}
+
+div {
+ 
+ display: flex;
+ flex-direction: column; 
+ 
+  }
+
+@media screen and (max-width: 600px) {
+    img {
+ float: left;
+      padding-bottom: 6px;
+     height: 200px;
+}
+  
+  div {
+ float: left;
+}
+   
+  body {
+ 
+  background-color: #CDE8F5;
+  /* Задаем странице серый фон */
+  font-family:Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  margin-left: 20px;
+  max-width: 900px;
+}
+  
 }
