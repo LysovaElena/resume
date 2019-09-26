@@ -1,6 +1,6 @@
 body {
  
-  background-color: #CDE8F5;
+  background-color: #EBF4E9;
   /* Задаем странице серый фон */
   font-family:Helvetica, sans-serif;
   font-size: 18px;
@@ -29,7 +29,7 @@ p {
 }
 
 .work {
-  color: #135EA8;
+  color: #2D5126;
   margin-top: -10px;
   font-size: 18px;
   font-style: regular;
@@ -45,7 +45,7 @@ p {
   /* Увеличиваем кегль в полтора раза */
 
   font-style: regular;
-  color: #15497C;
+  color: #2D5126;
   font-family: Helvetica, regular;
   /* Курсивим текст */
 
