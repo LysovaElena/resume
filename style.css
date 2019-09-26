@@ -1,34 +1,51 @@
 body {
-  /*
-   * Часть до фигурных скобок — селектор.
-   * Селекторы указывают, к каким элементам применять
-   * стили внутри фигурных скобок.
-   * В данном случае — к содержимому страницы.
-   */ 
-
-  background-color: #3366CC;
+ 
+  background-color: #CDE8F5;
   /* Задаем странице серый фон */
   font-family:Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 27px;
+  margin-left: 100px;
+  max-width: 900px;
 }
 
-h1, h2 {
-  color: white;
+h1 {font-size:36px !important; line-height:30px !important;
+color: black;margin-bottom: 28px;}
+
+h2 {
+  color: black;
   font-family: Helvetica, regular;
+  font-size: 20px;
+  margin-bottom: 20px;
+  
   /* Перекрашиваем заголовки в белый */
 }
 
 p {
-  color: white;
+  color: black;
+  margin-top: -22px;
   /* Перекрашиваем абзацы в белый */
 }
 
+.work {
+  color: #135EA8;
+  margin-top: -10px;
+  font-size: 18px;
+  font-style: regular;
+  font-family: Helvetica, regular;
+  margin-left:8px;
+  /* Перекрашиваем абзацы в белый */
+}
+
+
+
 .outstanding {
-  font-size: 150%;
+  font-size:100%;
   /* Увеличиваем кегль в полтора раза */
 
-  font-style: italic;
+  font-style: regular;
+  color: #15497C;
+  font-family: Helvetica, regular;
   /* Курсивим текст */
 
   /*
@@ -38,4 +55,42 @@ p {
    * В данном случае — к абзацу
    * про великого комбинатора.
    */
+}
+
+ul {
+  color: black;
+  font-family: Helvetica, regular;
+  margin-top: -16px;
+  /* Перекрашиваем заголовки в белый */
+}
+
+img {
+  /*
+  * Прижимаем картинку
+  * к левому краю.
+  */
+  float: left;
+  /*
+  * Фиксируем высоту картинки.
+  */
+  height: 240px;
+  width: auto;
+  /*
+  * Задаем внешние отступы:
+  * 40% от кегля сверху,
+  * чтобы попасть в строчные;
+  * 50% от кегля справа,
+  * чтобы отодвинуть текст.
+  */
+  margin: .1em .8em 0 0;
+}
+
+.small {
+  color: #6194C8;
+  font-style: italic;
+  margin-top: -24px;
+  margin-bottom: 18px;
+  width: auto;
+  font-size: 14px;
+  /* Перекрашиваем абзацы в белый */
 }
