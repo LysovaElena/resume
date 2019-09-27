@@ -105,31 +105,15 @@ div {
   min-width: 400px;
   }
 
-/*@media screen and (max-width: 600px) {
-    img {
- float: left;
-      padding-bottom: 6px;
-     height: 430px;
-}
-  
-  div {
- float: left;
-}
+@media screen and (max-width: 600px) {
+
    
   body {
  
-  background-color: #F4F6F3
-  font-family:Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 27px;
-  margin-left: 20px;
-  max-width: 500px;
+  font-size: 150%;
+ 
 }
   
-  .content {
-  max-width: 350px;
-  min-width: 350px;
-  }
+
   
 }
-*/
