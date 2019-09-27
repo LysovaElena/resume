@@ -105,7 +105,7 @@ div {
   min-width: 400px;
   }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
 
    
   .content {
@@ -115,7 +115,7 @@ div {
   max-width: 300px;
  
  
-}
+}*/
   
   body {
  
