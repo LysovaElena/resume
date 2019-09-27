@@ -1,67 +1,69 @@
 body {
  
   background-color: #F4F6F3;
-  /* Задаем странице серый фон */
   font-family:Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 20px;
   margin-left: 100px;
-  max-width: 900px;
+  max-width: 800px;
 }
 
-h1 {font-size:36px !important; line-height:30px !important;
-color: black;margin-bottom: 28px;margin-top: 50px;}
+h1 {font-size:30px !important; line-height:30px !important;
+color: #2E2E2E;margin-bottom: 26px;margin-top: 50px;}
+
+.special {
+	margin-bottom: 12px;
+	
+	
+	}
 
 h2 {
-  color: black;
+  color: #262626;
   font-family: Helvetica, regular;
-  font-size: 20px;
-  margin-bottom: 20px;
-  margin-top: 0px;
+  font-size: 16px;
   
-  /* Перекрашиваем заголовки в белый */
+  margin-top: 0px;
+  margin-bottom: 22px;
+  
+
 }
 
 p {
   color: black;
-  margin-top: -22px;
-  /* Перекрашиваем абзацы в белый */
+  margin-top: -20px;
+  margin-bottom: 22px;
+
 }
 
 .work {
-  color: #2D5126;
+  color: #188747;
   margin-top: -10px;
-  font-size: 18px;
+  margin-bottom: 22px;
+  font-size: 16px;
   font-style: regular;
   font-family: Helvetica, regular;
   margin-left:0px;
-  /* Перекрашиваем абзацы в белый */
+ 
 }
 
 
 
 .outstanding {
   font-size:100%;
-  /* Увеличиваем кегль в полтора раза */
+ 
 
   font-style: regular;
-  color: #2D5126;
+  color: #188747;
   font-family: Helvetica, regular;
-  /* Курсивим текст */
-
-  /*
-   * .outstanding — селектор по классу.
-   * Его стили применятся к элементам
-   * с атрибутом class, содержащим outstanding.
-   * В данном случае — к абзацу
-   * про великого комбинатора.
-   */
+ 
 }
 
 ul {
   color: black;
   font-family: Helvetica, regular;
-  margin-top: -16px;
+  margin-top: -20px;
+  margin-left: -20px;
+  font-size: 16px;
   /* Перекрашиваем заголовки в белый */
 }
 
@@ -77,17 +79,17 @@ img {
   */
   height: 400px;
   width: auto;
-  padding-top: 24px;
-  margin: -18px .9em 0 0;
+  padding-top: 21px;
+  margin: -18px 1.3em 1em 0em;
 }
 
 .small {
   color: #8FA89A;
   font-style: italic;
-  margin-top: -24px;
-  margin-bottom: 18px;
+  margin-top: -18px;
+  margin-bottom: 22px;
   width: auto;
-  font-size: 14px;
+  font-size: 12px;
   /* Перекрашиваем абзацы в белый */
 }
 
@@ -97,12 +99,17 @@ div {
  flex-direction: column; 
  
   }
+  
+  
+  .content {
+  min-width: 400px;
+  }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
     img {
  float: left;
       padding-bottom: 6px;
-     height: 300px;
+     height: 430px;
 }
   
   div {
@@ -116,7 +123,13 @@ div {
   font-size: 18px;
   line-height: 27px;
   margin-left: 20px;
-  max-width: 900px;
+  max-width: 500px;
 }
   
+  .content {
+  max-width: 350px;
+  min-width: 350px;
+  }
+  
 }
+*/
