@@ -108,13 +108,21 @@ div {
 @media screen and (max-width: 600px) {
 
    
-  body {
+  .content {
  
-  font-size: 150%;
-  margin-left: 10px;
+  transform: scale(1.2);
+  transform-origin: top left;
+  max-width: 400px;
+ 
  
 }
   
+  body {
+ 
+ 
+  margin-left: 20px;
+ 
+}
 
   
 }
